@@ -88,6 +88,8 @@
                 </executions>
                 <configuration>
                     <finalName>uber-${artifactId}</finalName>
+					<source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
         </plugins>
